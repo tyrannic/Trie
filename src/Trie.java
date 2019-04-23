@@ -89,6 +89,7 @@ public class Trie {
         }
         System.out.println(prefix);
     }
+    //has
     public boolean has(String str){
         if(str==null||str.length()==0){
             return false;
